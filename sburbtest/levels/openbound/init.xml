@@ -3,7 +3,7 @@
 	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'> 
 -->
 	<sburb name="AKVbound" version="1.0" description="initialization"
-	char='karkat' scale='2' 
+	char='karkat' scale='2' bgm='karkatSong'
 	levelPath='levels/openbound' resourcePath='resources/AKVbound'> 
 
 
