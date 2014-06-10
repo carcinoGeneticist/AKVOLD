@@ -83,13 +83,13 @@
         <asset name='stairs2' type='path'>1200,1298;1200,1419;1442,1675;1442,1537</asset>
         <asset name='stairs3' type='path'>1200,1296;1200,1158;1315,1033;1315,1163</asset>
 
-
+<!--
         <asset name='record1' type='audio'>audio/music/record1.ogg;audio/music/record1.mp3</asset>
         <asset name='record2' type='audio'>audio/music/record2.ogg;audio/music/record2.mp3</asset>
         <asset name='record3' type='audio'>audio/music/record3.ogg;audio/music/record3.mp3</asset>
         <asset name='record4' type='audio'>audio/music/record4.ogg;audio/music/record4.mp3</asset>
         <asset name='record5' type='audio'>audio/music/record5.ogg;audio/music/record5.mp3</asset>
-
+-->
 <!--CASE: add the object that goes in the chest here-->
         <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  
         <asset name='khaled' type='graphic'>objects/items/i_khaled.png</asset>
