@@ -521,6 +521,8 @@
 
 
             <!-- excess blocks -->
+
+            <!--000000000000000000000
             <sprite class='block' name='block4' x='1300' y='400' collidable='true'>
                 <action command='talk' name='Talk to Dave.'>
                     <args>
@@ -711,6 +713,7 @@
                             <args>record5</args>
                         </action>
             </sprite>
+            000000000000000000000000-->
 <!--
             <character class='karkat' x='1000' y='3000'/>
 -->
