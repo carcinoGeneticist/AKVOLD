@@ -1,0 +1,318 @@
+<sburb description='Interaction Dialogue'>
+
+
+	
+	<classes>
+	
+	<!-- Easter Egg Dialogue -->
+	
+		<action class='computer1' command="talk">
+           <args>
+               @! This looks familiar...
+               @! wrigglerbase, hemoglobin, hemogoblin (avoiid at all co2t2), redgrub, nubhub (ha2 omorashi 2tuff)...
+               @! This is from that one time sollux asked you if you knew any porn sites that were easy to get to.
+               @! What the fuck does omorashi mean?
+               @! Probably best you leave that unanswered.
+           </args>
+        </action>
+       
+       <action class='computer2' command="talk">
+           <args>
+               @! It appears to be a script for something.
+               @! "May the sweep carry you to great heights."
+               @! "Don't look down."
+               @! Lame.
+           </args>
+       </action>
+       
+       <action class='computer3' command="talk">
+           <args>
+               @! More lyrics on this one, it looks like.
+               @! Some indie shit about insomnia or something.
+               @! Pass.
+           </args>
+       </action>
+	          
+		<action class='computer3a' command="talk">
+           <args>
+               @! There's reasons why we fell so far so fast. There's reasons why the plusses never last. I take my own thoughts with a grain of salt, when I tell myself that this is all my fault.
+			   @! There's reasons for these bags under my eyes. It's the effort I don't give except in lies. Maybe it's the weight of all the promises we couldn't keep.
+			   @! But the universe will not let me sleep.
+           </args>
+       </action>
+       
+       
+       <action class='computer4' command='talk'>
+           <args>
+               @! There is an IM conversation open...
+            @!~gameplan
+               @! ANDREW: if you don't want there to be a loading time inbetween lowaa happening, just put it on the same image as the roof.
+               @! CASE: I wouldn't mind a loading time really
+               @! ANDREW: also what are the little red arrows?
+               @! CASE: the red arrows are the opposing team attacking the linebacker
+               @! CASE: obvs
+               @! ANDREW: oh. how ever did i miss that.
+               @! ANDREW: this is some a+ strategy you got going on there.  we're sure to win in the playoffs with your brilliance on our side.
+               @! Dumb.
+               
+            </args>
+        </action>
+		
+	<!-- Lab 1 Object Dialogue -->
+			
+			<action class='crabphone' command='talk'>
+				<args>
+				@! A crabphone. Look at this piece of shit. 
+				@! You swear you're one away from your 70th iteration of these things with how much alchemizing and scapping you've had to do. Even after your crabtop started working again you still feel the urge to get something else working for some redundant and unecessary reason.
+				</args>
+			</action>
+			
+			<action class='alchemizer' command='talk'>
+				<args>
+				@! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like. You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together. Some of them turned out alright, though with some confusing plots. "50 lucky First Dates with Chuck" was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
+				@! You don't really have anything to alchemize right now. 
+				</args>
+			</action>
+			
+			<action class='freezerFrozen' command='talk' name='Examine'>
+				<args>
+				@! This is one of the human freezers. It looks to be completely frosted over and frozen shut. Insolent humans.
+				</args>
+			</action>
+			
+			<action class='freezer' command='talk' name='Examine'>
+				<args>
+				@! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
+				</args>
+				<action command='addAction'>
+                    <args>o_frzr,
+                        <action command='openChest' name='Open.'>
+                            <args>o_frzr,i_tab,
+                            @! You got TAB!
+                            @! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+                            </args>
+                        </action>
+                    </args>
+                </action>
+			</action>
+			
+			<action class='freezerOpen' command='openChest' name='Open'>
+				<args>o_frzr,i_tab
+				@! You got TAB!
+				@! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+				</args>
+			</action>
+			
+			<action class='telepadClosed' command='talk' name='Teleport'>
+			<args>
+			@! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+			</args>
+			</action>
+			
+			<action class='return' command='talk' name='return'>
+			<args>
+			@! You definitely hear something a bit louder. 
+			</args>
+			</action>
+			
+			<!-- Lab 2 Object Dialogue -->
+			
+			<action class='EEpath' command='talk'>
+			<args>
+			@! What’s that sound? Is that a voice?
+			</args>
+			</action>
+			
+			<action class='coffee' command='talk' name='Get Coffee'>
+			<args>
+			@! You got some COFFEE!
+			@! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+			@! You still hang around the place as you drink it.
+			</args>
+			</action>
+			
+			<action class='bookshelf' command='talk' name='Examine'>
+			<args>
+			@! So many titles you haven’t heard of. So many textbooks. 
+That third shelf though... All romance novels. Hey, those two on the end! You were wondering where they went. Oh well, re-reading them isn’t really a priority right now.
+			</args>
+			</action>
+			
+			<action class='labComp' command='talk' name='Examine'>
+			<args>
+			@! It’s currently just a browser on dave_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
+			</args>
+			</action>
+			
+			<action class='flowers' command='talk' name='Examine'>
+			<args>
+			@! Roses are red.\nThose bottles are blue.\nMost your friends are dead.\nGet over it.
+			</args>
+			</action>
+			
+			<action class='labRecord' command='talk' name='Examine'>
+			<args>
+			@! You look at the iGrub to check what songs are on it. Maybe listening to something else will get this strange synthetic tune out of your head.
+			@! You can't figure out the unlock code, though. Damn. There's got to be somewhere else to listen to music.
+			</args>
+			</action>
+			
+			
+	<!--labCG -->
+			<action class='crabtop' command='talk' name='Examine Crabtop'>
+			<args>
+			@! You only recently got this thing working. Right now it’s open on bubblr, a dream-bubble centric communication system that links up with other universes’ similar networks.
+			@! You check to see if your personal blog, WHOTHEFUCKTOOKMYUSERNAME, has any followers. It doesn’t. Good. No one needs to see this, ever.
+			@! You also have a second blog, and it’s been a while since you posted anything there. Maybe you could spend a few minutes importing... that...
+			@! OH GRUBSAUCE GURGLING NOOKHUFFING BULGEPUNTING _FUCK_.
+			@! YOU LEFT YOUR FUCKING CRABPHONE IN THAT DREAM BUBBLE.
+			@! OH MAN.
+			@! OH GOD. OH MAN.
+			@karkat_horror KARKAT: OH GOD OH MAN OH GOD OH MAN OH GOD
+			@! Ah calm the fuck down if anyone does anything with it you can just delete the posts.
+			@karkat_talk KARKAT: OH RIGHT.
+			</args>
+			</action>
+			
+			<action class='posters' command='talk' name='Examine Posters'>
+			<args>
+			@! Wonderful movies. You have the best taste out of everyone on this meteor.
+			@! Branching out to human cinema was one of the better decisions you’ve made.
+			@! You truly admire some of the actors the humans have managed to produce from their primitive culture.
+			@! Dane Cook may just be better than the human Will Smith, too.
+			@! It’s almost painful to admit.
+			@! It's certainly painful for me to write.
+			</args>
+			</action>
+			
+			<action class='bed1' command='talk' name='Examine Recuperacoon'>
+			<args>
+			@! Thank whatever deities this player may believe in you were able to alchemize another one of these. You don’t think you could ever get used to the springy and cloth... thing that those humans call a “bed”. You would miss the sweet caress of slime on your bare skin. Such a comforting feeling... You could go for a nap right now.
+			@! Take a nap?
+			</args>
+			</action>
+			
+			<action class='bedy' command='talk' name='Examine Recuperacoon'>
+			<args>
+			@! The recuperacoon is very inviting and you are very tired. You prepare yourself for sleep and crawl inside...
+			</args>
+			</action>
+			
+			<action class='bedwake' command='talk' name='Examine Recuperacoon'>
+			<args>
+			@! You certainly feel refreshed, if covered in slime.
+			@! It's not long before you hear strange sounds from far down the hallways.
+			@! You wonder what you missed and what could still be going on in this place.
+			@! It might be a good idea to check up on some things.
+			</args>
+			</action>
+			
+			<action class='boonpot' command='talk' name='Examine Pot'>
+			<args>
+			@! Man, you sure do have a lot of money. A whole pot full of boonbucks. And this is only what you keep in THIS room.
+			@! Sometimes you just like to look at how the money twinkles. It’s a pleasant feeling, having money. Doesn’t make you all too happy, though.
+			</args>
+			</action>
+			
+			<action class='kkchest' command='talk' name='Open Chest'>
+			<args>
+			@! This isn’t a chest that simply open and levitates an item up in the air for you, you actually use this chest to store clothes and other things in. Putting these fucking things to use for once.
+			</args>
+			</action>
+			
+			<action class='shower' command='talk' name='Examine ablution trap'>
+			<args>
+			@! Humans have some similar contraption to this. They call it a /“shower,/” or a /“bathtub/”. 
+			</args>
+			</action>
+			
+			<action class='toilet' command='talk' name='Examine load gaper'>
+			<args>
+			@! You're lucky you don't have to use this right now, seeing as there is someone staring down at you this very moment. 
+			</args>
+			</action>
+			
+			<action class='ectolab' command='talk' name='ectolab'>
+			<args>
+			@! You hear something in the distance
+			@! #2b0057HONK!##
+			@karkat_talk KARKAT: HEY! ARE YOU IN HERE?
+			@! You hear some scurrying away.
+			</args>
+			</action>
+			
+			<action class='ectolab2' command='talk' name='ectolab'>
+			<args>
+			@! In the dark, you hear the sound of something being dragged.
+			@karkat_talk KARKAT: GAMZEE? WHAT THE FUCK ARE YOU DOING IN HERE?
+			@! #2b0057honk:o)##
+			@! After some metal rustling and some slight clangs, the room turns silent.
+			</args>
+			</action>
+			
+			
+			
+			
+			<!-- Chest Object Dialogue -->
+			
+			<action class='chest1' command='talk' name='Open'>
+			<args>
+			@! You got a WALKING STICK!
+			@! Terezi must have multiple of these. You wonder why someone would have stashed this in a chest, here of all places.
+			</args>
+			</action>
+			
+			<action class='chest2' command='talk' name='Open'>
+			<args>
+			@! You got a BUCKET!
+			@! Gross. Who would leave this here? That doesn't seem very sanitary.
+			</args>
+			</action>
+			
+			<action class='chest3' command='talk' name='Open'>
+			<args>
+			@! You got a PUZZLE CUBE!
+			@! This thing is a clusterfuck if you've ever seen one. What's with the gears and clockfaces? You guess Dave must have alchemized this, but realized it was probably far too ridiculously complicated to actually use for entertainment.
+			</args>
+			</action>
+			
+			<action class='chest4' command='talk' name='Open'>
+			<args>
+			@! You got a FANCY LANCE!
+			@! Why the hell would this thing be in the land of wrath and angels? That doesn't make too much sense. Oh well. You chalk it up as another weird dreambubble quirk.
+			</args>
+			</action>
+			
+			<action class='chest5' command='talk' name='Open'>
+			<args>
+			@! You got an OLD SICKLE!
+			@! Man. This was a sickle you used before you alchemized the prime weapon in your collection, the HOMES SMELL YA LATER. This was a bit prickly and rather uncomfortable to hold, and the color scheme leaves a lot to be desired. You're glad you've since upgraded.
+			</args>
+			</action>
+			
+			<action class='chest6' command='talk' name='Open'>
+			<args>
+			@! You got AHAB'S CROSSHAIRS!
+			@! You wonder what the point of a laser harpoon gun would even be. That's what this is, right? Harpoons are supposed to stick into something. Lasers don't really stick to things. I mean, they can if they were magic or something. This weapon is probably magic.  
+			</args>
+			</action>
+			
+			<action class='chest7' command='talk' name='Open'>
+			<args>
+			@! You got TROLL TAB!
+			@! This stuff is a thicker, slimier consistency than the human TAB. It would normally keep colder for longer too, if this were actually kept in a fridge and not haphazardly thrown in a chest. Either way, it doesn't taste any better.
+			</args>
+			</action>
+			
+			<action class='chest8' command='talk' name='Open'>
+			<args>
+			@! You got a STACK OF TOWELS!
+			@! You could use these. The meteor facilities' washing machines have a habit of ruining whatever you put into them a variety of ways. Some end up with huge holes. Some end up stained with rust or something. Some catch fire in the dryer. You'll keep these handy if your stock dwindles.
+			</args>
+			</action>
+			
+			
+			
+			
+	</classes>
+</sburb>

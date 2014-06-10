@@ -1,0 +1,809 @@
+<sburb description="lab2">
+
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+        <dependency>chars/rose.xml</dependency>
+        <dependency>chars/dave.xml</dependency>
+        <dependency>chars/davelab2.xml</dependency>
+        <dependency>chars/case.xml</dependency>
+        <dependency>chars/kanaya.xml</dependency>
+        <dependency>rooms/labCG.xml</dependency>
+    </dependencies>
+
+    <assets>
+        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/slices/lab2_BG_0_0.png</asset>
+        <asset name='lab2_BG_0_1' type='graphic'>backgrounds/slices/lab2_BG_0_1.png</asset>
+        <asset name='lab2_BG_0_2' type='graphic'>backgrounds/slices/lab2_BG_0_2.png</asset>
+        <asset name='lab2_BG_0_3' type='graphic'>backgrounds/slices/lab2_BG_0_3.png</asset>
+        <asset name='lab2_BG_0_4' type='graphic'>backgrounds/slices/lab2_BG_0_4.png</asset>
+        <asset name='lab2_BG_0_5' type='graphic'>backgrounds/slices/lab2_BG_0_5.png</asset>
+        <asset name='lab2_BG_0_6' type='graphic'>backgrounds/slices/lab2_BG_0_6.png</asset>
+
+        <asset name='lab2_BG_1_0' type='graphic'>backgrounds/slices/lab2_BG_1_0.png</asset>
+        <asset name='lab2_BG_1_1' type='graphic'>backgrounds/slices/lab2_BG_1_1.png</asset>
+        <asset name='lab2_BG_1_2' type='graphic'>backgrounds/slices/lab2_BG_1_2.png</asset>
+        <asset name='lab2_BG_1_3' type='graphic'>backgrounds/slices/lab2_BG_1_3.png</asset>
+        <asset name='lab2_BG_1_4' type='graphic'>backgrounds/slices/lab2_BG_1_4.png</asset>
+        <asset name='lab2_BG_1_5' type='graphic'>backgrounds/slices/lab2_BG_1_5.png</asset>
+        <asset name='lab2_BG_1_6' type='graphic'>backgrounds/slices/lab2_BG_1_6.png</asset>
+
+        <asset name='lab2_BG_2_0' type='graphic'>backgrounds/slices/lab2_BG_2_0.png</asset>
+        <asset name='lab2_BG_2_1' type='graphic'>backgrounds/slices/lab2_BG_2_1.png</asset>
+        <asset name='lab2_BG_2_2' type='graphic'>backgrounds/slices/lab2_BG_2_2.png</asset>
+        <asset name='lab2_BG_2_3' type='graphic'>backgrounds/slices/lab2_BG_2_3.png</asset>
+        <asset name='lab2_BG_2_4' type='graphic'>backgrounds/slices/lab2_BG_2_4.png</asset>
+        <asset name='lab2_BG_2_5' type='graphic'>backgrounds/slices/lab2_BG_2_5.png</asset>
+        <asset name='lab2_BG_2_6' type='graphic'>backgrounds/slices/lab2_BG_2_6.png</asset>
+
+        <asset name='lab2_BG_3_0' type='graphic'>backgrounds/slices/lab2_BG_3_0.png</asset>
+        <asset name='lab2_BG_3_1' type='graphic'>backgrounds/slices/lab2_BG_3_1.png</asset>
+        <asset name='lab2_BG_3_2' type='graphic'>backgrounds/slices/lab2_BG_3_2.png</asset>
+        <asset name='lab2_BG_3_3' type='graphic'>backgrounds/slices/lab2_BG_3_3.png</asset>
+        <asset name='lab2_BG_3_4' type='graphic'>backgrounds/slices/lab2_BG_3_4.png</asset>
+        <asset name='lab2_BG_3_5' type='graphic'>backgrounds/slices/lab2_BG_3_5.png</asset>
+        <asset name='lab2_BG_3_6' type='graphic'>backgrounds/slices/lab2_BG_3_6.png</asset>
+
+
+
+        <asset name='lab2_FG_0_0' type='graphic'>backgrounds/slices/lab2_FG_0_0.png</asset>
+        <asset name='lab2_FG_0_1' type='graphic'>backgrounds/slices/lab2_FG_0_1.png</asset>
+        <asset name='lab2_FG_0_2' type='graphic'>backgrounds/slices/lab2_FG_0_2.png</asset>
+        <asset name='lab2_FG_0_3' type='graphic'>backgrounds/slices/lab2_FG_0_3.png</asset>
+        <asset name='lab2_FG_0_4' type='graphic'>backgrounds/slices/lab2_FG_0_4.png</asset>
+        <asset name='lab2_FG_0_5' type='graphic'>backgrounds/slices/lab2_FG_0_5.png</asset>
+        <asset name='lab2_FG_0_6' type='graphic'>backgrounds/slices/lab2_FG_0_6.png</asset>
+
+        <asset name='lab2_FG_1_0' type='graphic'>backgrounds/slices/lab2_FG_1_0.png</asset>
+        <asset name='lab2_FG_1_1' type='graphic'>backgrounds/slices/lab2_FG_1_1.png</asset>
+        <asset name='lab2_FG_1_2' type='graphic'>backgrounds/slices/lab2_FG_1_2.png</asset>
+        <asset name='lab2_FG_1_3' type='graphic'>backgrounds/slices/lab2_FG_1_3.png</asset>
+        <asset name='lab2_FG_1_4' type='graphic'>backgrounds/slices/lab2_FG_1_4.png</asset>
+        <asset name='lab2_FG_1_5' type='graphic'>backgrounds/slices/lab2_FG_1_5.png</asset>
+        <asset name='lab2_FG_1_6' type='graphic'>backgrounds/slices/lab2_FG_1_6.png</asset>
+
+        <asset name='lab2_FG_2_0' type='graphic'>backgrounds/slices/lab2_FG_2_0.png</asset>
+        <asset name='lab2_FG_2_1' type='graphic'>backgrounds/slices/lab2_FG_2_1.png</asset>
+        <asset name='lab2_FG_2_2' type='graphic'>backgrounds/slices/lab2_FG_2_2.png</asset>
+        <asset name='lab2_FG_2_3' type='graphic'>backgrounds/slices/lab2_FG_2_3.png</asset>
+        <asset name='lab2_FG_2_4' type='graphic'>backgrounds/slices/lab2_FG_2_4.png</asset>
+        <asset name='lab2_FG_2_5' type='graphic'>backgrounds/slices/lab2_FG_2_5.png</asset>
+        <asset name='lab2_FG_2_6' type='graphic'>backgrounds/slices/lab2_FG_2_6.png</asset>
+
+        <asset name='lab2_FG_3_0' type='graphic'>backgrounds/slices/lab2_FG_3_0.png</asset>
+        <asset name='lab2_FG_3_1' type='graphic'>backgrounds/slices/lab2_FG_3_1.png</asset>
+        <asset name='lab2_FG_3_2' type='graphic'>backgrounds/slices/lab2_FG_3_2.png</asset>
+        <asset name='lab2_FG_3_3' type='graphic'>backgrounds/slices/lab2_FG_3_3.png</asset>
+        <asset name='lab2_FG_3_4' type='graphic'>backgrounds/slices/lab2_FG_3_4.png</asset>
+        <asset name='lab2_FG_3_5' type='graphic'>backgrounds/slices/lab2_FG_3_5.png</asset>
+        <asset name='lab2_FG_3_6' type='graphic'>backgrounds/slices/lab2_FG_3_6.png</asset>
+
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
+        
+        <asset name='stairs1' type='path'>1173,1673;1173,1805;1416,2050;1416,1922</asset>
+        <asset name='stairs2' type='path'>1200,1298;1200,1419;1442,1675;1442,1537</asset>
+        <asset name='stairs3' type='path'>1200,1296;1200,1158;1315,1033;1315,1163</asset>
+
+
+        <asset name='record1' type='audio'>audio/music/record1.ogg;audio/music/record1.mp3</asset>
+        <asset name='record2' type='audio'>audio/music/record2.ogg;audio/music/record2.mp3</asset>
+        <asset name='record3' type='audio'>audio/music/record3.ogg;audio/music/record3.mp3</asset>
+        <asset name='record4' type='audio'>audio/music/record4.ogg;audio/music/record4.mp3</asset>
+        <asset name='record5' type='audio'>audio/music/record5.ogg;audio/music/record5.mp3</asset>
+
+<!--CASE: add the object that goes in the chest here-->
+        <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  
+        <asset name='khaled' type='graphic'>objects/items/i_khaled.png</asset>
+        <asset name='trollTab' type='graphic'>objects/items/i_trolltab.png</asset>  
+        <asset name='oldsickle' type='graphic'>objects/items/i_oldsickle.png</asset> 
+        <asset name='bucket' type='graphic'>objects/items/i_bucket.png</asset>   
+
+
+
+        <!--to fix should be coffee-->
+
+        <asset name='cg' type='graphic'>objects/symbols/cancer.png</asset>
+        <asset name='tc' type='graphic'>objects/symbols/capricorn.png</asset>
+        <asset name='tg' type='graphic'>objects/symbols/dave.png</asset>
+        <asset name='tt' type='graphic'>objects/symbols/rose.png</asset>
+        <asset name='gc' type='graphic'>objects/symbols/libra.png</asset>
+        <asset name='ga' type='graphic'>objects/symbols/virgo.png</asset>
+
+        <asset name='fuck' type='graphic'>chars/voice/voice.png</asset>
+
+
+
+    </assets>
+
+<!--CASE: animate it here, fuck with the x and y until it comes out in the right spot.  depthing should always be 3-->
+    <sprite depthing='3' name='obj01'>
+        <animation x='-24' y='-24' length='2' colSize='40' rowSize='60' frameInterval='6' sheet='obj01'/>
+    </sprite>
+
+    <sprite depthing='3' name='khaled'>
+        <animation sheet='khaled'/>
+    </sprite>
+
+    <sprite depthing='3' name='trollTab'>
+        <animation sheet='trollTab'/>
+    </sprite>
+
+    <sprite depthing='3' name='oldsickle'>
+        <animation sheet='oldsickle'/>
+    </sprite>
+
+    <sprite depthing='3' name='bucket'>
+        <animation sheet='bucket'/>
+    </sprite>
+
+
+   
+    <rooms>
+
+        <room name='lab2' walkableMap='lab2_WM' scale='4'>
+
+            <paths>
+
+                    <motionpath path="stairs1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+
+            </paths>
+
+            <triggers>
+<!--
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='moveSprite'>
+                        <args>kanaya,422,327</args>
+                    </action>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>block3,lab2</args>
+                    </action>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>rose,lab2</args>
+                    </action>
+                </trigger>
+-->
+
+
+                <!-- room changes -->
+                <trigger>spriteProperty,char,y&lt;436
+                    <trigger>spriteProperty,char,x&gt;1333
+                        <trigger>spriteProperty,char,y&gt;377
+                            <action command='changeRoom'>
+                                <args>lab2,290,2251</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- game loops -->
+                
+                <trigger>spriteProperty,char,y&gt;2250
+                    <trigger>spriteProperty,char,y&lt;2300
+                        <trigger detonate='true'>spriteProperty,char,x&lt;500
+                            <action command='talk'>
+                                <args>
+                                    @karkat_talk KARKAT: DAVE?
+                                    @dave_talk DAVE: ...
+                                    @dave_talk DAVE: sup
+                                    @karkat_talk KARKAT: WHAT THE FUCK ARE YOU DOING HERE?
+                                    @dave_talk DAVE: this is like my place what the fuck are you talking about
+                                    @dave_talk DAVE: what do you come around this tiny teleporter room too? ive never seen you around like you cant just act you own every nook and cranny on this meteor dude
+                                    @karkat_talk KARKAT: EVERY WHAT?
+                                    @dave_talk DAVE: like secret easter egg room
+                                    @karkat_talk KARKAT: WHAT’S AN EASTER EGG?
+                                    @dave_talk DAVE: dude nevermind
+                                    @dave_talk DAVE: not in the mood to explain all this human slang shit right now
+                                    @dave_talk DAVE: read a book or something
+                                    @dave_talk DAVE: or watch more shitty earth movies
+                                    @dave_talk DAVE: those could tell way more than i can
+                                    @karkat_talk KARKAT: OK WHATEVER SHUT UP.
+                                    @karkat_talk KARKAT: I HAVEN’T BEEN BACK HERE FOR A WHILE.
+                                    @karkat_talk KARKAT: NOW THAT I THINK OF IT, WHAT THE FUCK WAS BACK HERE IN THE FIRST PLACE THAT I EVER WENT BACK HERE?
+                                    @dave_talk DAVE: probably the classy lounge area
+                                    @karkat_talk KARKAT: I DON’T EVEN REMEMBER ONE OF THOSE.
+                                    @dave_talk DAVE: whoa youve never been to the classy lounge area
+                                    @dave_talk DAVE: are you trying to say youve never once pressed ctrl t
+                                    @karkat_talk KARKAT: NO I HAVEN’T. I DON’T EVEN-
+                                    @dave_talk DAVE: then check this out follow me 
+                                </args>
+                                <action command='moveSprite'>
+                                    <args>davelab2,1320,430</args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&lt;850
+                    <trigger detonate='true'>spriteProperty,char,y&gt;2800
+                        <action command='talk'>
+                            <args>
+                                @! What's that sound? Is that a voice?
+                            </args>
+                        </action>
+                    </trigger>
+                </trigger>
+
+
+
+
+            </triggers>
+
+                <!-- teleporters-->
+                <!-- lab 2 to lab 1 -->
+                <sprite class='teleporter' name='teleporterPad1' x='1259' y='2112'>
+                    <action name='Teleport' command='changeRoomRemote'>
+                        <args>rooms/lab1.xml,lab1,75,3025</args>
+                    </action>
+                </sprite>
+                <!-- top of stairs to 4 way intersection -->
+                <sprite class='teleporter' name='teleporterPad2' x='1585' y='1093'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,403,1714</args>
+                    </action>
+                </sprite>
+                <!-- intersection to stairs -->
+                <sprite class='teleporter' name='teleporterPad3' x='411' y='1714'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1575,1093</args>
+                    </action>
+                </sprite>
+                <!-- cross to transporter room -->
+                <sprite class='teleporter' name='teleporterPad4' x='411' y='1380'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1075,2950</args>
+                    </action>
+                </sprite>
+                <!-- teleporter room to intersection -->
+                <sprite class='teleporter' name='teleporterPad5' x='1083' y='2950'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,404,1380</args>
+                    </action>
+                </sprite>
+                <!-- dave tp -->
+                <sprite class='teleporter' name='teleporterPad6' x='440' y='2251'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1355,555</args>
+                    </action>
+                </sprite>
+                <!-- cross to rose -->
+                <sprite class='teleporter' name='teleporterPad7' x='411' y='1547'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,578,372</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad8' x='588' y='372'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,405,1547</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908'>
+                    <action name='Teleport' command='changeRoomRemote'>
+                        <args>rooms/labCG.xml,labCG,215,1730</args>
+                        <action command='removeSprite'>
+                            <args>rose,lab2</args>
+                            <action command='moveSprite'>
+                                <args>kanaya,422,327</args>
+                            </action>
+                        </action>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAC' x='1280' y='2995'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCA' x='893' y='2908'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTC' x='893' y='2995'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAA' x='1025' y='2778'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAT' x='1151' y='2778'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+                <sprite class='teleporter' name='teleporterPadAG' x='1025' y='3125'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGC' x='1151' y='3125'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCT' x='953' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCC' x='953' y='2830'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGA' x='1230' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTA' x='1230' y='2830'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+            <!-- chests -->
+            <sprite class='chest' name='chest1' x='1500' y='1950'>
+                <action command='openChest' name='Open.'>
+                    <args>chest1,trollTab,
+                        @! You got TROLL TAB!
+                        @! This stuff is a thicker, slimier consistency than the human TAB. It would normally keep colder for longer too, if this were actually kept in a fridge and not haphazardly thrown in a chest. Either way, it doesn't taste any better.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='chest' name='chest2' x='220' y='1550'>
+                <action command='openChest' name='Open.'>
+                    <args>chest2,khaled,
+                        @! You got a PUZZLE CUBE!
+                        @! This thing is a clusterfuck if you've ever seen one. What's with the gears and clockfaces? You guess Dave must have alchemized this, but realized it was probably far too ridiculously complicated to actually use for entertainment.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='chest' name='chest3' x='579' y='1550'>
+                <action command='openChest' name='Open.'>
+                    <args>chest3,oldsickle,
+                        @! You got an OLD SICKLE!
+                        @! Man. This was a sickle you used before you alchemized the prime weapon in your collection, the HOMES SMELL YA LATER. This was a bit prickly and rather uncomfortable to hold, and the color scheme leaves a lot to be desired. You're glad you've since upgraded.
+                    </args>
+                </action>
+            </sprite>
+
+
+            <sprite class='chest' name='chest4' x='1620' y='1580'>
+                <action command='openChest' name='Open.'>
+                    <args>chest4,bucket,
+                        @! You got a BUCKET!
+                        @! Gross. Who would leave this here? That doesn't seem very sanitary.
+                    </args>
+                </action>
+            </sprite>
+
+
+            <!-- other sprites -->
+<!--CASE: place the chest/whatever in the room tag, fuck with the x and y until it is where you want.  "name='open.'" can be changed to whatever you want the option to be when you activate it.  spaces don't have to be escaped.-->
+            <sprite class='coffee' name='coffMach1' x='383' y='154'>
+                <action command='openChest' name='Open.'>
+                    <args>coffMach1,obj01,
+                        @! You got some COFFEE!
+            			@! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+            			@! You still hang around the place as you drink it.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_bookshelf' name='o_bookshelf' x='688' y='138' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! So many titles you haven’t heard of. So many textbooks. That third shelf though... All romance novels. Hey, those two on the end! You were wondering where they went. Oh well, re-reading them isn’t really a priority right now.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_flowers' name='o_flowers' x='837' y='310' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! Roses are red. Those bottles are blue. Most your friends are dead. Get over it.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_grammo' name='o_grammo' x='420' y='432' collidable='false'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! You look at the iGrub to check what songs are on it. Maybe listening to something else will get this strange synthetic tune out of your head.
+                        @! You can't figure out the unlock code, though. Damn. There's got to be somewhere else to listen to music.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='comp' name='labcomp1' x='838' y='412' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! It’s currently just a browser on dave/_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
+                    </args>
+                </action>
+            </sprite>
+            <sprite name="cg" x="1335" y="2900" width="32" height="32" collidable="false" depthing='3'>
+                <animation sheet="cg" x="-80" y="-60" length="4" frameInterval="4"/>
+            </sprite>
+            <sprite name="ga" x='1283' y='3060' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='ga' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="gc" x='1205' y='3122' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='gc' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tc" x='943' y='2990' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tc' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tt" x='1080' y='3122' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tt' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tg" x='943' y='2898' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tg' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            
+<!--
+            <sprite class='counter' name='counter' x='1270' y='412'>
+                <action command='talk' name='Talk to Dave.'>
+                    <args>
+                        @dave_smug DAVE: classy lounge area what did i tell you
+                        @dave_smug DAVE: take it all in its pretty snazzy
+                        @karkat_talk KARKAT: I’M REALLY NOT SURPRISED AT ALL THAT THIS PLACE EXISTS.
+                        @dave_talk DAVE: cool place to just chill though
+                        @dave_talk DAVE: i alchemized some songs i had into records
+                        @dave_talk DAVE: theres some other cool stuff you can sample
+                        @dave_smug DAVE: things do sound pretty great on vinyl i had to hear it to believe it
+                        @karkat_idle KARKAT: ...
+                        @dave_talk DAVE: you should listen to some of them
+                        @karkat_talk KARKAT: NO.
+                        @dave_huhtalk DAVE: dude come on branch out a bit
+                        @karkat_yell KARKAT: NO.
+                        @dave_smug DAVE: give it a chance
+                        @karkat_yell KARKAT: WHY ARE YOU SO ADAMANT ABOUT THIS?
+                        @dave_talk DAVE: because literally no one cares and youre the only one who really gives any shit about like expanding cultural ideas or whatever
+                        @dave_huhtalk DAVE: i mean kanaya is but shes not very good at it
+                        @dave_smug DAVE: and besides no ones gonna get to the easter eggs if you keep turning everything down like that
+                        @karkat_talk KARKAT: MAYBE IT WOULD BE EASY TO ENJOY THIS “CLASSY LOUNGE AREA” IF YOU DIDN’T HYPERACTIVELY BADGER ME CONSTANTLY WHILE I’M HERE.
+                        @dave_talk DAVE: im putting on music anyway
+                        @karkat_what KARKAT: WHY
+                        @dave_smug DAVE: because i was here first
+                        @dave_smug DAVE: here pick something for me    
+                    </args>
+                    <action command='presentActions' name='actions'>
+                        <args>
+                            <action command='playSong' name='record1'>
+                                <args>record1</args>
+                            </action>
+                            <action command='playSong' name='record2'>
+                                <args>record2</args>
+                            </action>
+                            <action command='playSong' name='record3'>
+                                <args>record3</args>
+                            </action>
+                            <action command='playSong' name='record4'>
+                                <args>record4</args>
+                            </action>
+                            <action command='playSong' name='record5'>
+                                <args>record5</args>
+                            </action>
+                            <action command='talk' name='Talk to Dave.'>
+                                <args> @! asdf </args>
+                            </action>
+                        </args>
+                    </action>
+                </action>
+            </sprite>
+-->
+            <!-- path blocks -->
+           
+            <sprite class='block' name='block3' x='700' y='2967' collidable='true'/>
+            
+
+
+            <!-- excess blocks -->
+            <sprite class='block' name='block4' x='1300' y='400' collidable='true'>
+                <action command='talk' name='Talk to Dave.'>
+                    <args>
+                        @dave_smug DAVE: classy lounge area what did i tell you
+                        @dave_smug DAVE: take it all in its pretty snazzy
+                        @karkat_talk KARKAT: I’M REALLY NOT SURPRISED AT ALL THAT THIS PLACE EXISTS.
+                        @dave_talk DAVE: cool place to just chill though
+                        @dave_talk DAVE: i alchemized some songs i had into records
+                        @dave_talk DAVE: theres some other cool stuff you can sample
+                        @dave_smug DAVE: things do sound pretty great on vinyl i had to hear it to believe it
+                        @karkat_idle KARKAT: ...
+                        @dave_talk DAVE: you should listen to some of them
+                        @karkat_talk KARKAT: NO.
+                        @dave_huhtalk DAVE: dude come on branch out a bit
+                        @karkat_yell KARKAT: NO.
+                        @dave_smug DAVE: give it a chance
+                        @karkat_yell KARKAT: WHY ARE YOU SO ADAMANT ABOUT THIS?
+                        @dave_talk DAVE: because literally no one cares and youre the only one who really gives any shit about like expanding cultural ideas or whatever
+                        @dave_huhtalk DAVE: i mean kanaya is but shes not very good at it
+                        @dave_smug DAVE: and besides no ones gonna get to the easter eggs if you keep turning everything down like that
+                        @karkat_talk KARKAT: MAYBE IT WOULD BE EASY TO ENJOY THIS “CLASSY LOUNGE AREA” IF YOU DIDN’T HYPERACTIVELY BADGER ME CONSTANTLY WHILE I’M HERE.
+                        @dave_talk DAVE: im putting on music anyway
+                        @karkat_what KARKAT: WHY
+                        @dave_smug DAVE: because i was here first
+                        @dave_smug DAVE: here pick something for me    
+                    </args>
+                    
+                        <action command='presentActions' name='actions'>
+                            <args>
+                                <action command='playSong' name='record1'>
+                                    <args>record1</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record2'>
+                                    <args>record2</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record3'>
+                                    <args>record3</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record4'>
+                                    <args>record4</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='playSong' name='record5'>
+                                    <args>record5</args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='moveSprite'>
+                                            <args>block5,1300,400</args>
+                                        </action>
+                                    </action>
+                                </action>
+                                <action command='talk' name='Talk to Dave.'>
+                                    <args> 
+                                        @dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+                                        @karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
+                                        @karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+                                        @dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+                                        @dave_talk DAVE: some crazy shit went down up there
+                                        @karkat_talk KARKAT: WITH ERIDAN?
+                                        @dave_talk DAVE: no after the bubble was gone
+                                        @dave_talk DAVE: i swear to every universes jesus space literally cracked
+                                        @dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+                                        @dave_talk DAVE: i heard a lot of screams
+                                        @dave_talk DAVE: even from how far away it was
+                                        @dave_talk DAVE: it sounded like us like everyone
+                                        @dave_talk DAVE: i heard me
+                                        @dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+                                        @dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+                                        @dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+                                        @karkat_horror KARKAT: ...
+                                        @karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+                                        @dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+                                        @karkat_sullen KARKAT: ...
+                                        @karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+                                        @dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+                                        @dave_talk DAVE: lets just chill and check out more music maybe
+                                        @dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+                                        @karkat_talk KARKAT: I HEAR YOU.
+                                    </args>
+                                    <action command='removeSprite'>
+                                        <args>block4,lab2</args>
+                                        <action command='removeSprite'>
+                                            <args>block5,lab2</args>
+                                            <action command='moveSprite'>
+                                                <args>block6,1300,400</args>
+                                                <action command='moveSprite'>
+                                                    <args>thefuckingvoice,1450,550</args>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </args>
+                        </action>
+                    </action>
+            </sprite>
+
+            <sprite class='block' name='block5' x='3000' y='200' collidable='true'>
+                        <action command='playSong' name='record1'>
+                            <args>record1</args>
+                        </action>
+                        <action command='playSong' name='record2'>
+                            <args>record2</args>
+                        </action>
+                        <action command='playSong' name='record3'>
+                            <args>record3</args>
+                        </action>
+                        <action command='playSong' name='record4'>
+                            <args>record4</args>
+                        </action>
+                        <action command='playSong' name='record5'>
+                            <args>record5</args>
+                        </action>
+                        <action command='talk' name='Talk to Dave.'>
+                            <args> 
+                                @dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+                                @karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
+                                @karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+                                @dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+                                @dave_talk DAVE: some crazy shit went down up there
+                                @karkat_talk KARKAT: WITH ERIDAN?
+                                @dave_talk DAVE: no after the bubble was gone
+                                @dave_talk DAVE: i swear to every universes jesus space literally cracked
+                                @dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+                                @dave_talk DAVE: i heard a lot of screams
+                                @dave_talk DAVE: even from how far away it was
+                                @dave_talk DAVE: it sounded like us like everyone
+                                @dave_talk DAVE: i heard me
+                                @dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+                                @dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+                                @dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+                                @karkat_horror KARKAT: ...
+                                @karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+                                @dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+                                @karkat_sullen KARKAT: ...
+                                @karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+                                @dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+                                @dave_talk DAVE: lets just chill and check out more music maybe
+                                @dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+                                @karkat_talk KARKAT: I HEAR YOU.
+                            </args>
+                            <action command='removeSprite'>
+                                <args>block5,lab2</args>
+                                <action command='moveSprite'>
+                                    <args>block6,1300,400</args>
+                                    <action command='moveSprite'>
+                                        <args>thefuckingvoice,1450,550</args>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+            </sprite>
+
+            <sprite class='block' name='block6' x='3000' y='200' collidable='true'>
+                        <action command='playSong' name='record1'>
+                            <args>record1</args>
+                        </action>
+                        <action command='playSong' name='record2'>
+                            <args>record2</args>
+                        </action>
+                        <action command='playSong' name='record3'>
+                            <args>record3</args>
+                        </action>
+                        <action command='playSong' name='record4'>
+                            <args>record4</args>
+                        </action>
+                        <action command='playSong' name='record5'>
+                            <args>record5</args>
+                        </action>
+            </sprite>
+<!--
+            <character class='karkat' x='1000' y='3000'/>
+-->
+
+            <character class='rose' x='422' y='327'>
+                <action class='roseTalk1' command='talk' name='Talk to Rose.'>
+                </action>
+            </character>
+
+
+            <character class='kanaya' x='50' y='3200'>
+                <action class='kanayaTalk1' command='talk' name='Talk to Kanaya.'>
+                </action>
+            </character>
+
+<!--1320x430-->
+            <character class='davelab2' x='425' y='2260'>
+            </character>
+
+<!--
+            <character class='dave' x='425' y='2260'>
+                <action command='talk' name='Talk to Dave'>
+                    <args>
+                        @karkat_talk KARKAT: DAVE?
+                        @dave_talk DAVE: ...
+
+            </args>
+        </action>
+
+
+
+            </character>-->
+<!-- 1450x550 -->
+            <sprite name="thefuckingvoice" x="1700" y="10" width="76" height="76" collidable="false" depthing='2'>
+                <animation sheet="fuck" x="-35" y="-60" length="4" frameInterval="4"/>
+                <action command='talk' name='Ask Case for Credits.'>
+                    <args>
+                        @karkat_what KARKAT: WHEN DID YOU GET HERE?
+                        @case_huh CASE: Well, it looks like you've done everything there is to do, which means the game is over. That means it doesn't have to stay canon.
+                        @karkat_talk KARKAT: OH, SO YOU'RE SHOEHORNING YOURSELF INTO THIS ONE LAST TIME TO TALK ABOUT HOW MUCH WORK YOU'VE DONE?
+                        @case_slytalk CASE: How about instead I just name drop everyone else.
+                        @case_slytalk CASE: Someone I got introduced to right after the blog exploded, who I think helped the blog explode, was Kylee Henke, who’s a triple threat of art, music, and acting. She’s also pretty rad as-is.
+                        @case_idle CASE: Kylee Henke - kyleehenke.tumblr.com
+                        @case_slytalk CASE: Another exceptional Homestuck writer, who I met through feeling sad for Karkat and sending them awestruck messages about their writing...
+                        @case_slytalk CASE: Is of course Fivetail, of BoyfriendLeaders, Sadstuck, Featherbent, and general JohnKat fame. Five's done a LOT to support me since we met, and we’ve traded quite a few writing ideas from each other. Notably things involving cranberries.
+                        @case_idle CASE: Fivetail - fivetail.tumblr.com
+                        @case_slytalk CASE: Kinomatika I kind of need to thank for stuff, for getting me to my first convention and sending me a guitar I've used to record many a thing. I owe her that much.
+                        @case_idle CASE: Kino - Kinomatika.tumblr.com
+                        @case_slytalk CASE: Dante Basco is my favorite follower for reasons you already know because you’re a Homestuck. He’s Rufio, Zuko, Jake Llong, and also a kickass poet as well as a kickass actor.
+                        @case_idle CASE: Dante Basco - rufiozuko.tumblr.com
+                        @case_huhtalk CASE: Now the voice actors. Oh jeez.
+                        @case_slytalk CASE: Afina and Tooch I met as fellow ask-bloggers. Thanks to them for all the cool stuff I've gotten a chance to help with.
+                        @case_idle CASE: Afina - 4SKT3R3Z1VO1C3.tumblr.com, celestialtoxophilite.tumblr.com. Tooch - askstridervoice.tumblr.com, miketooch.tumblr.com
+                        @case_talk CASE: Denten is a pro. Then again, anyone in Dust: An Elysian Tail is pro. He’s also the greatest John voice actor by objectionable fact because his name is John and also because he’s a fantastic voice actor. His casting intuition is pretty damn formidable as well.
+                        @case_idle CASE: Denten - Denten02.tumblr.com
+                        @case_talk CASE: Finally, major co-developer of this game, Andrew. I met him through this project and shortly found out what an awesome person he was. Let the fact that this game even got done be a testament to that.
+                        @case_idle CASE: Andrew - halfedge.tumblr.com
+                        @case_slytalk CASE: You know what else you guys should check out that most of these guys have worked on? Featherbent. I do music and voice things for it.
+                        @case_idle CASE: Featherbent - Featherbent.com
+                        @case_talk CASE: And a few more odd special thanks just to tack you guys on, since people probably know where to find you anyway. All the other VAs and people I've met and done projects with, Jane, Tamara, Cat, James, Luke, Maddi, Kira, Grant, Jess, Ed, Cory, Tyler, Jay, Mark, Stu, Kami, Klone, Brennan... I'm gonna forget someone if I keep going.
+                        @case_slytalk CASE: Omar I know you aren’t playing, but anyone else who is should post a screenshot of this part on the AKV tag even if there are more already there so I can reblog them and fill his dash with it. Hi Omar, thank you for the insight into licking the entire wiener.
+                        @case_talk CASE: Thanks Michael for planting those two seeds in my head that I should both get into Homestuck and get into voice acting.
+                        @case_slytalk CASE: And thank you THE FUCKING MOST to Andrew Hussie for not only Homestuck and all the amazing opportunities its fandom has brought me, but also for making Karkat’s actions in the story since I started this blog so incredibly convenient for me to fit this blog into a way that makes sense in canon. It’s almost like you’re doing it just for me. It works all too perfectly. We love you, Hussie.
+                        @karkat_what KARKAT: AND WHAT ABOUT YOU?
+                        @case_huh CASE: Hm?
+                        @karkat_talk KARKAT: AREN’T YOU GOING TO DO A LINK BACK TO YOURSELF OR...
+                        @case_slytalk CASE: They can find me. I’ll be around.
+                        @karkat_eyeroll2 KARKAT: ...
+                        @case_talk CASE: But yeah, thanks everyone, for making this past year the greatest thing that’s happened to me. For everyone who bought my album, you’re getting me through college in tough times. For anyone who’s so much as reblogged any of my posts, you’ve helped me grow. For anyone who’s supported me both through the greatest of praise and the harshest of critique, I thank you for helping me improve.
+                        @karkat_talk KARKAT: REALLY? NO DOUCHEY SELF PROMO OR ANYTHING?
+                        @case_slytalk CASE: You can also buy my EP, We Mars on Bandcamp for 4 dollars at jasoniscariot.bandcamp.c-
+                        @karkat_eyeroll1 KARKAT: THERE WE GO.
+                        @case_madtalk CASE: Oh, and when's that new voice entry coming up?
+                        @karkat_facepalm KARKAT: ...
+                        @karkat_talk KARKAT: I'M PRETTY FUCKING SURE I'M NOT IN CONTROL OF THAT.
+                        @case_talk CASE: Well, we'll get to that whenever. I have a few things in mind. We'll see.
+                        @! You've done everything there is to do. Thanks for listening to, and playing Ask Karkat Vantas's Voice. It's been a long hiatus, but there is more on the way.
+                        @! You can close out at any time, or listen to more records. 
+                    </args>
+                </action>
+            </sprite>
+            
+
+            <!-- background ProtoSlice -->
+            <sprite name='lab2_BG'>
+                <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <!-- foreground ProtoSlice -->
+            <sprite name='lab2_FG' depthing='2'>
+                <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+        </room>
+    </rooms>
+</sburb>

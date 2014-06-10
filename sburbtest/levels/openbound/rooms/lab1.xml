@@ -1,0 +1,692 @@
+<sburb description="lab1">
+
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+        <dependency>chars/dave.xml</dependency>
+        <dependency>chars/terezi.xml</dependency>
+        <dependency>chars/case.xml</dependency>
+        <dependency>chars/sollux.xml</dependency>
+        <dependency>rooms/lowaa.xml</dependency>
+        <dependency>rooms/lab2.xml</dependency>
+        <dependency>dialogs/itemDialogue.xml</dependency>
+    </dependencies>
+
+    <assets>
+
+        <asset name='lab1_BG_0_0' type='graphic'>backgrounds/slices/lab1_BG_0_0.png</asset>
+        <asset name='lab1_BG_0_1' type='graphic'>backgrounds/slices/lab1_BG_0_1.png</asset>
+        <asset name='lab1_BG_0_2' type='graphic'>backgrounds/slices/lab1_BG_0_2.png</asset>
+        <asset name='lab1_BG_0_3' type='graphic'>backgrounds/slices/lab1_BG_0_3.png</asset>
+        <asset name='lab1_BG_0_4' type='graphic'>backgrounds/slices/lab1_BG_0_4.png</asset>
+        <asset name='lab1_BG_0_5' type='graphic'>backgrounds/slices/lab1_BG_0_5.png</asset>
+        <asset name='lab1_BG_0_6' type='graphic'>backgrounds/slices/lab1_BG_0_6.png</asset>
+
+        <asset name='lab1_BG_1_0' type='graphic'>backgrounds/slices/lab1_BG_1_0.png</asset>
+        <asset name='lab1_BG_1_1' type='graphic'>backgrounds/slices/lab1_BG_1_1.png</asset>
+        <asset name='lab1_BG_1_2' type='graphic'>backgrounds/slices/lab1_BG_1_2.png</asset>
+        <asset name='lab1_BG_1_3' type='graphic'>backgrounds/slices/lab1_BG_1_3.png</asset>
+        <asset name='lab1_BG_1_4' type='graphic'>backgrounds/slices/lab1_BG_1_4.png</asset>
+        <asset name='lab1_BG_1_5' type='graphic'>backgrounds/slices/lab1_BG_1_5.png</asset>
+        <asset name='lab1_BG_1_6' type='graphic'>backgrounds/slices/lab1_BG_1_6.png</asset>
+
+        <asset name='lab1_BG_2_0' type='graphic'>backgrounds/slices/lab1_BG_2_0.png</asset>
+        <asset name='lab1_BG_2_1' type='graphic'>backgrounds/slices/lab1_BG_2_1.png</asset>
+        <asset name='lab1_BG_2_2' type='graphic'>backgrounds/slices/lab1_BG_2_2.png</asset>
+        <asset name='lab1_BG_2_3' type='graphic'>backgrounds/slices/lab1_BG_2_3.png</asset>
+        <asset name='lab1_BG_2_4' type='graphic'>backgrounds/slices/lab1_BG_2_4.png</asset>
+        <asset name='lab1_BG_2_5' type='graphic'>backgrounds/slices/lab1_BG_2_5.png</asset>
+        <asset name='lab1_BG_2_6' type='graphic'>backgrounds/slices/lab1_BG_2_6.png</asset>
+
+        <asset name='lab1_BG_3_0' type='graphic'>backgrounds/slices/lab1_BG_3_0.png</asset>
+        <asset name='lab1_BG_3_1' type='graphic'>backgrounds/slices/lab1_BG_3_1.png</asset>
+        <asset name='lab1_BG_3_2' type='graphic'>backgrounds/slices/lab1_BG_3_2.png</asset>
+        <asset name='lab1_BG_3_3' type='graphic'>backgrounds/slices/lab1_BG_3_3.png</asset>
+        <asset name='lab1_BG_3_4' type='graphic'>backgrounds/slices/lab1_BG_3_4.png</asset>
+        <asset name='lab1_BG_3_5' type='graphic'>backgrounds/slices/lab1_BG_3_5.png</asset>
+        <asset name='lab1_BG_3_6' type='graphic'>backgrounds/slices/lab1_BG_3_6.png</asset>
+
+        <asset name='lab1_BG_4_0' type='graphic'>backgrounds/slices/lab1_BG_4_0.png</asset>
+        <asset name='lab1_BG_4_1' type='graphic'>backgrounds/slices/lab1_BG_4_1.png</asset>
+        <asset name='lab1_BG_4_2' type='graphic'>backgrounds/slices/lab1_BG_4_2.png</asset>
+        <asset name='lab1_BG_4_3' type='graphic'>backgrounds/slices/lab1_BG_4_3.png</asset>
+        <asset name='lab1_BG_4_4' type='graphic'>backgrounds/slices/lab1_BG_4_4.png</asset>
+        <asset name='lab1_BG_4_5' type='graphic'>backgrounds/slices/lab1_BG_4_5.png</asset>
+        <asset name='lab1_BG_4_6' type='graphic'>backgrounds/slices/lab1_BG_4_6.png</asset>
+
+        <asset name='lab1_BG_5_0' type='graphic'>backgrounds/slices/lab1_BG_5_0.png</asset>
+        <asset name='lab1_BG_5_1' type='graphic'>backgrounds/slices/lab1_BG_5_1.png</asset>
+        <asset name='lab1_BG_5_2' type='graphic'>backgrounds/slices/lab1_BG_5_2.png</asset>
+        <asset name='lab1_BG_5_3' type='graphic'>backgrounds/slices/lab1_BG_5_3.png</asset>
+        <asset name='lab1_BG_5_4' type='graphic'>backgrounds/slices/lab1_BG_5_4.png</asset>
+        <asset name='lab1_BG_5_5' type='graphic'>backgrounds/slices/lab1_BG_5_5.png</asset>
+        <asset name='lab1_BG_5_6' type='graphic'>backgrounds/slices/lab1_BG_5_6.png</asset>
+
+        <asset name='lab1_BG_6_0' type='graphic'>backgrounds/slices/lab1_BG_6_0.png</asset>
+        <asset name='lab1_BG_6_1' type='graphic'>backgrounds/slices/lab1_BG_6_1.png</asset>
+        <asset name='lab1_BG_6_2' type='graphic'>backgrounds/slices/lab1_BG_6_2.png</asset>
+        <asset name='lab1_BG_6_3' type='graphic'>backgrounds/slices/lab1_BG_6_3.png</asset>
+        <asset name='lab1_BG_6_4' type='graphic'>backgrounds/slices/lab1_BG_6_4.png</asset>
+        <asset name='lab1_BG_6_5' type='graphic'>backgrounds/slices/lab1_BG_6_5.png</asset>
+        <asset name='lab1_BG_6_6' type='graphic'>backgrounds/slices/lab1_BG_6_6.png</asset>
+
+        <asset name='lab1_FG_0_0' type='graphic'>backgrounds/slices/lab1_FG_0_0.png</asset>
+        <asset name='lab1_FG_0_1' type='graphic'>backgrounds/slices/lab1_FG_0_1.png</asset>
+        <asset name='lab1_FG_0_2' type='graphic'>backgrounds/slices/lab1_FG_0_2.png</asset>
+        <asset name='lab1_FG_0_3' type='graphic'>backgrounds/slices/lab1_FG_0_3.png</asset>
+        <asset name='lab1_FG_0_4' type='graphic'>backgrounds/slices/lab1_FG_0_4.png</asset>
+        <asset name='lab1_FG_0_5' type='graphic'>backgrounds/slices/lab1_FG_0_5.png</asset>
+        <asset name='lab1_FG_0_6' type='graphic'>backgrounds/slices/lab1_FG_0_6.png</asset>
+
+        <asset name='lab1_FG_1_0' type='graphic'>backgrounds/slices/lab1_FG_1_0.png</asset>
+        <asset name='lab1_FG_1_1' type='graphic'>backgrounds/slices/lab1_FG_1_1.png</asset>
+        <asset name='lab1_FG_1_2' type='graphic'>backgrounds/slices/lab1_FG_1_2.png</asset>
+        <asset name='lab1_FG_1_3' type='graphic'>backgrounds/slices/lab1_FG_1_3.png</asset>
+        <asset name='lab1_FG_1_4' type='graphic'>backgrounds/slices/lab1_FG_1_4.png</asset>
+        <asset name='lab1_FG_1_5' type='graphic'>backgrounds/slices/lab1_FG_1_5.png</asset>
+        <asset name='lab1_FG_1_6' type='graphic'>backgrounds/slices/lab1_FG_1_6.png</asset>
+
+        <asset name='lab1_FG_2_0' type='graphic'>backgrounds/slices/lab1_FG_2_0.png</asset>
+        <asset name='lab1_FG_2_1' type='graphic'>backgrounds/slices/lab1_FG_2_1.png</asset>
+        <asset name='lab1_FG_2_2' type='graphic'>backgrounds/slices/lab1_FG_2_2.png</asset>
+        <asset name='lab1_FG_2_3' type='graphic'>backgrounds/slices/lab1_FG_2_3.png</asset>
+        <asset name='lab1_FG_2_4' type='graphic'>backgrounds/slices/lab1_FG_2_4.png</asset>
+        <asset name='lab1_FG_2_5' type='graphic'>backgrounds/slices/lab1_FG_2_5.png</asset>
+        <asset name='lab1_FG_2_6' type='graphic'>backgrounds/slices/lab1_FG_2_6.png</asset>
+
+        <asset name='lab1_FG_3_0' type='graphic'>backgrounds/slices/lab1_FG_3_0.png</asset>
+        <asset name='lab1_FG_3_1' type='graphic'>backgrounds/slices/lab1_FG_3_1.png</asset>
+        <asset name='lab1_FG_3_2' type='graphic'>backgrounds/slices/lab1_FG_3_2.png</asset>
+        <asset name='lab1_FG_3_3' type='graphic'>backgrounds/slices/lab1_FG_3_3.png</asset>
+        <asset name='lab1_FG_3_4' type='graphic'>backgrounds/slices/lab1_FG_3_4.png</asset>
+        <asset name='lab1_FG_3_5' type='graphic'>backgrounds/slices/lab1_FG_3_5.png</asset>
+        <asset name='lab1_FG_3_6' type='graphic'>backgrounds/slices/lab1_FG_3_6.png</asset>
+
+        <asset name='lab1_FG_4_0' type='graphic'>backgrounds/slices/lab1_FG_4_0.png</asset>
+        <asset name='lab1_FG_4_1' type='graphic'>backgrounds/slices/lab1_FG_4_1.png</asset>
+        <asset name='lab1_FG_4_2' type='graphic'>backgrounds/slices/lab1_FG_4_2.png</asset>
+        <asset name='lab1_FG_4_3' type='graphic'>backgrounds/slices/lab1_FG_4_3.png</asset>
+        <asset name='lab1_FG_4_4' type='graphic'>backgrounds/slices/lab1_FG_4_4.png</asset>
+        <asset name='lab1_FG_4_5' type='graphic'>backgrounds/slices/lab1_FG_4_5.png</asset>
+        <asset name='lab1_FG_4_6' type='graphic'>backgrounds/slices/lab1_FG_4_6.png</asset>
+
+        <asset name='lab1_FG_5_0' type='graphic'>backgrounds/slices/lab1_FG_5_0.png</asset>
+        <asset name='lab1_FG_5_1' type='graphic'>backgrounds/slices/lab1_FG_5_1.png</asset>
+        <asset name='lab1_FG_5_2' type='graphic'>backgrounds/slices/lab1_FG_5_2.png</asset>
+        <asset name='lab1_FG_5_3' type='graphic'>backgrounds/slices/lab1_FG_5_3.png</asset>
+        <asset name='lab1_FG_5_4' type='graphic'>backgrounds/slices/lab1_FG_5_4.png</asset>
+        <asset name='lab1_FG_5_5' type='graphic'>backgrounds/slices/lab1_FG_5_5.png</asset>
+        <asset name='lab1_FG_5_6' type='graphic'>backgrounds/slices/lab1_FG_5_6.png</asset>
+
+        <asset name='lab1_FG_6_0' type='graphic'>backgrounds/slices/lab1_FG_6_0.png</asset>
+        <asset name='lab1_FG_6_1' type='graphic'>backgrounds/slices/lab1_FG_6_1.png</asset>
+        <asset name='lab1_FG_6_2' type='graphic'>backgrounds/slices/lab1_FG_6_2.png</asset>
+        <asset name='lab1_FG_6_3' type='graphic'>backgrounds/slices/lab1_FG_6_3.png</asset>
+        <asset name='lab1_FG_6_4' type='graphic'>backgrounds/slices/lab1_FG_6_4.png</asset>
+        <asset name='lab1_FG_6_5' type='graphic'>backgrounds/slices/lab1_FG_6_5.png</asset>
+        <asset name='lab1_FG_6_6' type='graphic'>backgrounds/slices/lab1_FG_6_6.png</asset>
+
+        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
+
+        <asset name='gradient' type='graphic'>objects/items/o_gradient.png</asset>
+
+        <asset name='caseSheet' type='graphic'>chars/voice/voice.png</asset>
+        <asset name='case_huh' type='graphic'>dialogs/esac/case_huh.png</asset>
+        <asset name='case_huhtalk' type='graphic'>dialogs/esac/case_huhtalk.png</asset>
+        <asset name='case_idle' type='graphic'>dialogs/esac/case_idle.png</asset>
+        <asset name='case_mad' type='graphic'>dialogs/esac/case_mad.png</asset>
+        <asset name='case_madtalk' type='graphic'>dialogs/esac/case_madtalk.png</asset>
+        <asset name='case_slytalk' type='graphic'>dialogs/esac/case_slytalk.png</asset>
+        <asset name='case_talk' type='graphic'>dialogs/esac/case_talk.png</asset>
+        <asset name='voice_idle' type='graphic'>dialogs/esac/voice_idle.png</asset>
+        <asset name='voice_talk' type='graphic'>dialogs/esac/voice_talk.png</asset>
+
+        <asset name='hint' type='graphic'>objects/items/o_sparkle.png</asset>
+        <asset name='itab' type='graphic'>objects/items/i_tab.png</asset>
+
+        <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
+
+    </assets>
+
+    <sprite depthing='3' name='itab'>
+        <animation sheet='itab'/>
+    </sprite>
+
+    <rooms>
+
+        <room name='lab1' walkableMap='lab1_WM' scale='4'>
+
+            <paths>
+                <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            </paths>
+
+            <triggers>
+                <!--
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>block1,lab1</args>
+                        <action command='removeSprite'>
+                            <args>block2,lab1</args>
+                        </action>
+                    </action>
+                </trigger>
+-->
+                
+            <!-- room changes -->
+
+                <!-- hallway to storage -->
+                <trigger>spriteProperty,char,y&lt;1217
+                    <trigger>spriteProperty,char,x&lt;348
+                        <trigger>spriteProperty,char,y&gt;1205
+                            <action command='changeRoom'>
+                                <args>lab1,285,819</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- storage to hallway -->
+                <trigger>spriteProperty,char,y&lt;1000
+                    <trigger>spriteProperty,char,x&lt;348
+                        <trigger>spriteProperty,char,y&gt;915
+                            <action command='changeRoom'>
+                                <args>lab1,289,1382</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- stairs to platform -->
+                <trigger>spriteProperty,char,x&gt;2050
+                    <trigger>spriteProperty,char,x&lt;2090
+                        <trigger>spriteProperty,char,y&gt;2586
+                            <action command='changeRoom'>
+                                <args>lab1,2564,2176</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- platform to stairs -->
+            <!--    <trigger>spriteProperty,char,x&gt;2400
+                    <trigger>spriteProperty,char,x&lt;2560
+                        <trigger>spriteProperty,char,y&gt;2093
+                            <trigger><args>gameState,leaveLOWAA=false</args>
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>
+                                        @! Hold on a second, aren't you needed somewhere?
+                                    </args>
+                                </action>
+                            </action>
+                        </trigger>
+                        </trigger>
+                    </trigger>
+                </trigger>  -->
+
+                <trigger>spriteProperty,char,x&gt;2100
+                    <trigger>spriteProperty,char,x&lt;2450
+                        <trigger>spriteProperty,char,y&gt;2093
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>
+                                    @! Hold on a second, aren't you needed somewhere?
+                                    </args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&gt;2150
+                    <trigger>spriteProperty,char,x&lt;2560
+                        <trigger>spriteProperty,char,y&gt;2093
+                            <trigger><args>gameState,leaveLOWAA=true</args>
+                                <action command='changeRoom'>
+                                    <args>lab1,1956,2785</args>
+                                </action>
+                            </trigger>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+            <!-- game loops -->
+
+                <!--
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>teleporterPad,lab1</args>
+                    </action>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='moveSprite'>
+                        <args>hiddenTP,75,3025</args>
+                    </action>
+                </trigger>
+                <trigger detonate='true'>
+                    <args>gameState,sleep=true</args>
+                    <action command='talk'>
+                        <args>@! asdf </args>
+                    </action>
+                </trigger>
+-->
+                <!-- dave interrupting, follow -->
+              
+                <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
+                        <action command='follow'>
+                            <args>dave,char</args>
+                            <action class='daveTalk1' command='talk' noDelay='true'>
+                            </action>
+                    </action>
+                </trigger>
+          
+                <!-- terezi talk at top of stiars -->
+                <trigger detonate='true'>spriteProperty,karkat,x&gt;2712
+                    <action class='tereziTalk1' command='talk' noDelay='true'>
+                        <action command='moveSprite'>
+                            <args>gradient,324,1338</args>
+                        </action>
+                    </action>
+                </trigger>
+
+                <!-- approaching terezi, remove sprites, unfollow, change room, change teleporter action  -->
+                <trigger>spriteProperty,karkat,x&gt;2712
+                    <trigger detonate='true'>spriteProperty,karkat,y&lt;1900
+                        <action class='tereziTalk2' command='talk' noDelay='true'>
+                            <action command='removeSprite'>
+                                <args>terezi,lab1</args>
+                                <action command='removeAction'>
+                                    <args>teleporterPad,Teleport</args>
+                                    <action command='addAction'>
+                                        <args>teleporterPad,
+                                            <action name='Teleport' command='changeRoomRemote'>
+                                                <args>rooms/lab2.xml,lab2,1235,2112</args>
+                                            </action>
+                                        </args>
+                                        <action command='unfollow'>
+                                            <args>dave</args>
+                                            <action command='removeSprite'>
+                                                <args>dave,lab1</args>
+                                                <action command='changeRoomRemote'>
+                                                    <args>rooms/lowaa.xml,lowaa,830,860</args>
+                                                    <action command='removeSprite'>
+                                                        <args>door1,lab1</args>
+                                                            <action command='addSprite'>
+                                                                <args>terezi,lowaa</args>
+                                                            </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+
+
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&gt;400
+                        <action command='deltaSprite'>
+                            <args>hint,6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,200,0</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1650,3000</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&gt;1600
+                        <action command='deltaSprite'>
+                            <args>hint,0,-6</args>
+                            <action command='deltaSprite'>
+                                <args>hint,0,-8</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,0,-11</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,0,-14</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,0,-18</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,0,-23</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,0,-29</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,0,-35</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,0,-43</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,0,-60</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,0,-200</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1650,2340</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,y&lt;2400
+                        <action command='deltaSprite'>
+                            <args>hint,-6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,-8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,-11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,-14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,-18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,-23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,-29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,-35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,-43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,-60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,-200,0</args>
+                                                                    <action command='removeSprite'>
+                                                                        <args>hint,lab1</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&lt;400
+                        <action command='moveSprite'>
+                            <args>hint,500,3020</args>
+                        </action>
+                    </trigger>
+                </trigger>
+                
+
+
+            </triggers>
+
+            <!-- teleporters -->
+            <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
+                <action name='Teleport' command='talk'>
+                    <args>
+                        @! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='teleporter' name='hiddenTP' x='3000' y='3000'>
+                <action name='Teleport' command='changeRoomRemote'>
+                    <args>rooms/lab2.xml,lab2,1199,2112</args>
+                </action>
+            </sprite>
+
+            <!-- chests -->
+
+
+            <!-- other sprites -->
+            <sprite class='o_frzr' name='o_frzr' x='1000' y='360' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>@! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
+                    </args>
+                    <action command='removeAction'>
+                        <args>o_frzr,Examine.</args>
+                        <action command='addAction'>
+                            <args>o_frzr,
+                                <action command='openChest' name='Open.'>
+                                    <args>o_frzr,itab,
+                                        @! You got TAB!
+                                        @! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+                                    </args>
+                                </action>
+                            </args>
+                        </action>
+                    </action>
+                </action>
+            </sprite>
+
+            <sprite class='alch' name='alch' x='331' y='430' collidable='true'>
+                <action command='talk' name='Examine'>
+                    <args>
+                        @! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like. You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together. Some of them turned out alright, though with some confusing plots. "50 lucky First Dates with Chuck" was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
+                        @! You don't really have anything to alchemize right now.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_crabphone' name='o_crabphone' x='20' y='1500' collidable='true'>
+                <action command='talk' name='Examine crabphone.'>
+                    <args>
+                        @! A crabphone. Look at this piece of shit. 
+                        @! You swear you're one away from your 70th iteration of these things with how much alchemizing and scapping you've had to do. Even after your crabtop started working again you still feel the urge to get something else working for some redundant and unecessary reason.
+                    </args>
+                    <action command='removeSprite'>
+                        <args>o_crabphone,lab1</args>
+                    </action>
+                </action>
+            </sprite>
+            <sprite class='o_frznfrzr' name='o_frznfrzr' x='780' y='360' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! This is one of the human freezers. It looks to be completely frosted over and frozen shut. Insolent humans.
+                    </args>
+                </action>
+            </sprite>
+            
+<!--
+            <sprite class='o_ablut' name='o_ablut' x='1000' y='1500' collidable='true'>
+                <action command='talk' name='Examine ablution trap.'>
+                    <args>
+                        @! Humans have some similar contraption to this. They call it a /“shower,/” or a /“bathtub/”.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_boonpot' name='o_boonpot' x='1250' y='1500' collidable='true'>
+                <action command='talk' name='Examine pot.'>
+                    <args>
+                        @! Man, you sure do have a lot of money. A whole pot full of boonbucks. And this is only what you keep in THIS room.
+                        @! Sometimes you just like to look at how the money twinkles. It’s a pleasant feeling, having money. Doesn’t make you all too happy, though.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_crabphone' name='o_crabphone' x='1500' y='1500' collidable='true'>
+                <action command='talk' name='Examine crabphone.'>
+                    <args>
+                        @! A crabphone. Look at this piece of shit. 
+                        @! You swear you're one away from your 70th iteration of these things with how much alchemizing and scapping you've had to do. Even after your crabtop started working again you still feel the urge to get something else working for some redundant and unecessary reason.
+                    </args>
+                </action>
+            </sprite>
+        -->
+<!--
+            <sprite class='o_crabtop' name='o_crabtop' x='1000' y='1500' collidable='true'>
+                <action command='talk' name='Examine crabtop.'>
+                    <args>
+                        @! You only recently got this thing working. Right now it’s open on bubblr, a dream-bubble centric communication system that links up with other universes’ similar networks.
+                        @! You check to see if your personal blog, WHOTHEFUCKTOOKMYUSERNAME, has any followers. It doesn’t. Good. No one needs to see this, ever.
+                        @! You also have a second blog, and it’s been a while since you posted anything there. Maybe you could spend a few minutes importing... that...
+                        @! OH GRUBSAUCE GURGLING NOOKHUFFING BULGEPUNTING _FUCK_.
+                        @! YOU LEFT YOUR FUCKING CRABPHONE IN THAT DREAM BUBBLE.
+                        @! OH MAN.
+                        @! OH GOD. OH MAN.
+                        @karkat_horror KARKAT: OH GOD OH MAN OH GOD OH MAN OH GOD
+                        @! Ah calm the fuck down if anyone does anything with it you can just delete the posts.
+                        @karkat_talk KARKAT: OH RIGHT.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_frznfrzr' name='o_frznfrzr' x='1250' y='1500' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! This is one of the human freezers. It looks to be completely frosted over and frozen shut. Insolent humans.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_frzr' name='o_frzr' x='1500' y='1500' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
+                    </args>
+                </action>
+            </sprite>
+        -->
+        <!--
+            <sprite class='o_sink' name='o_sink' x='1000' y='1500' collidable='true'>
+                
+            </sprite>
+            <sprite class='o_toilet' name='o_toilet' x='1250' y='1500' collidable='true'>
+                <action command='talk' name='Examine load gaper.'>
+                    <args>
+                        @! You're lucky you don't have to use this right now, seeing as there is someone staring down at you this very moment. 
+                    </args>
+                </action>
+            </sprite>
+        -->
+            
+
+            <sprite class='door' name='door1' x='272' y='1309' collidable='true'>
+                <action command='talk' name='Open.'>
+                    <args>
+                        @! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite name='gradient' x="1000" y="2000" width="86" height="100" collidable="false" depthing='2'>
+                <animation sheet="gradient" x="-80" y="-60"/>
+            </sprite>
+
+           
+
+
+            <sprite class='comp' name='comp1' x='331' y='2042' collidable='true'>
+                <action class='computer1' command='talk' name='Examine.'>
+                </action>
+            </sprite>
+
+            <sprite class='comp' name='comp2' x='331' y='2097' collidable='true'>
+                <action class='computer2' command='talk' name='Examine.'>
+                </action>
+            </sprite>
+
+
+            <sprite class='comp' name='comp3' x='331' y='2159' collidable='true'>
+                <action class='computer3' command='talk' name='Examine.'>
+                </action>
+            </sprite>
+
+            <sprite class='comp' name='comp4' x='331' y='2222' collidable='true'>
+                <action class='computer4' command='talk' name='Examine.'>
+                </action>
+            </sprite>
+
+            <sprite name="caseSheet" x="2680" y="244" width="76" height="76" collidable="false" depthing='2'>
+                <animation sheet="caseSheet" x="-35" y="-60" length="4" frameInterval="4"/>
+            </sprite>
+            <character class='case' x='2680' y='244'>
+                <action class='AKVEgg1' command='talk' name='Ask Karkat Voice'>
+                    <action command='removeSprite'>
+                                                <args>block3,lab2</args>
+                                            </action>
+                </action>
+            </character>
+
+            <sprite name="hint" x="2500" y="10" width="26" height="24" collidable="false" depthing='3'>
+                <animation sheet="hint" x="-16" y="-16" length="8" frameInterval="4"/>
+            </sprite>
+
+
+
+            <!-- path blocks -->
+
+            <sprite class='block' name='block1' x='1476' y='2369' collidable='true'/>
+            <sprite class='block' name='block2' x='1850' y='2550' collidable='true'/>
+
+            <!-- character setup 300x1500-->
+            <character class='karkat' x='300' y='1500'>
+                <action class='beKarkat'/>
+            </character>
+
+            <character class='sollux' x='100' y='2100'>
+                <action class='sollux1' command='talk' name='Ask where you are.'>
+                </action>
+            </character>
+
+            <character class='dave' x='1560' y='3030'>
+            </character>
+            <character class='terezi' x='2737' y='1767'>
+                <action class='tereziTalk2'/>
+            </character>
+
+            <!-- background slices -->
+            <sprite name='lab1_BG'>
+                <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <!-- foreground slices -->
+            <sprite name='lab1_FG' depthing ='2'>
+                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+
+        </room>
+    </rooms>
+</sburb>
