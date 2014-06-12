@@ -1,4 +1,4 @@
-<sburb description="first room">
+<sburb description="lab1">
 
   <dependencies>
     <dependency>hallwayLog.xml</dependency>
@@ -10,13 +10,128 @@
   </classes>
 
   <assets>
+
+        <asset name='lab1_BG_0_0' type='graphic'>backgrounds/slices/lab1_BG_0_0.png</asset>
+        <asset name='lab1_BG_0_1' type='graphic'>backgrounds/slices/lab1_BG_0_1.png</asset>
+        <asset name='lab1_BG_0_2' type='graphic'>backgrounds/slices/lab1_BG_0_2.png</asset>
+        <asset name='lab1_BG_0_3' type='graphic'>backgrounds/slices/lab1_BG_0_3.png</asset>
+        <asset name='lab1_BG_0_4' type='graphic'>backgrounds/slices/lab1_BG_0_4.png</asset>
+        <asset name='lab1_BG_0_5' type='graphic'>backgrounds/slices/lab1_BG_0_5.png</asset>
+        <asset name='lab1_BG_0_6' type='graphic'>backgrounds/slices/lab1_BG_0_6.png</asset>
+
+        <asset name='lab1_BG_1_0' type='graphic'>backgrounds/slices/lab1_BG_1_0.png</asset>
+        <asset name='lab1_BG_1_1' type='graphic'>backgrounds/slices/lab1_BG_1_1.png</asset>
+        <asset name='lab1_BG_1_2' type='graphic'>backgrounds/slices/lab1_BG_1_2.png</asset>
+        <asset name='lab1_BG_1_3' type='graphic'>backgrounds/slices/lab1_BG_1_3.png</asset>
+        <asset name='lab1_BG_1_4' type='graphic'>backgrounds/slices/lab1_BG_1_4.png</asset>
+        <asset name='lab1_BG_1_5' type='graphic'>backgrounds/slices/lab1_BG_1_5.png</asset>
+        <asset name='lab1_BG_1_6' type='graphic'>backgrounds/slices/lab1_BG_1_6.png</asset>
+
+        <asset name='lab1_BG_2_0' type='graphic'>backgrounds/slices/lab1_BG_2_0.png</asset>
+        <asset name='lab1_BG_2_1' type='graphic'>backgrounds/slices/lab1_BG_2_1.png</asset>
+        <asset name='lab1_BG_2_2' type='graphic'>backgrounds/slices/lab1_BG_2_2.png</asset>
+        <asset name='lab1_BG_2_3' type='graphic'>backgrounds/slices/lab1_BG_2_3.png</asset>
+        <asset name='lab1_BG_2_4' type='graphic'>backgrounds/slices/lab1_BG_2_4.png</asset>
+        <asset name='lab1_BG_2_5' type='graphic'>backgrounds/slices/lab1_BG_2_5.png</asset>
+        <asset name='lab1_BG_2_6' type='graphic'>backgrounds/slices/lab1_BG_2_6.png</asset>
+
+        <asset name='lab1_BG_3_0' type='graphic'>backgrounds/slices/lab1_BG_3_0.png</asset>
+        <asset name='lab1_BG_3_1' type='graphic'>backgrounds/slices/lab1_BG_3_1.png</asset>
+        <asset name='lab1_BG_3_2' type='graphic'>backgrounds/slices/lab1_BG_3_2.png</asset>
+        <asset name='lab1_BG_3_3' type='graphic'>backgrounds/slices/lab1_BG_3_3.png</asset>
+        <asset name='lab1_BG_3_4' type='graphic'>backgrounds/slices/lab1_BG_3_4.png</asset>
+        <asset name='lab1_BG_3_5' type='graphic'>backgrounds/slices/lab1_BG_3_5.png</asset>
+        <asset name='lab1_BG_3_6' type='graphic'>backgrounds/slices/lab1_BG_3_6.png</asset>
+
+        <asset name='lab1_BG_4_0' type='graphic'>backgrounds/slices/lab1_BG_4_0.png</asset>
+        <asset name='lab1_BG_4_1' type='graphic'>backgrounds/slices/lab1_BG_4_1.png</asset>
+        <asset name='lab1_BG_4_2' type='graphic'>backgrounds/slices/lab1_BG_4_2.png</asset>
+        <asset name='lab1_BG_4_3' type='graphic'>backgrounds/slices/lab1_BG_4_3.png</asset>
+        <asset name='lab1_BG_4_4' type='graphic'>backgrounds/slices/lab1_BG_4_4.png</asset>
+        <asset name='lab1_BG_4_5' type='graphic'>backgrounds/slices/lab1_BG_4_5.png</asset>
+        <asset name='lab1_BG_4_6' type='graphic'>backgrounds/slices/lab1_BG_4_6.png</asset>
+
+        <asset name='lab1_BG_5_0' type='graphic'>backgrounds/slices/lab1_BG_5_0.png</asset>
+        <asset name='lab1_BG_5_1' type='graphic'>backgrounds/slices/lab1_BG_5_1.png</asset>
+        <asset name='lab1_BG_5_2' type='graphic'>backgrounds/slices/lab1_BG_5_2.png</asset>
+        <asset name='lab1_BG_5_3' type='graphic'>backgrounds/slices/lab1_BG_5_3.png</asset>
+        <asset name='lab1_BG_5_4' type='graphic'>backgrounds/slices/lab1_BG_5_4.png</asset>
+        <asset name='lab1_BG_5_5' type='graphic'>backgrounds/slices/lab1_BG_5_5.png</asset>
+        <asset name='lab1_BG_5_6' type='graphic'>backgrounds/slices/lab1_BG_5_6.png</asset>
+
+        <asset name='lab1_BG_6_0' type='graphic'>backgrounds/slices/lab1_BG_6_0.png</asset>
+        <asset name='lab1_BG_6_1' type='graphic'>backgrounds/slices/lab1_BG_6_1.png</asset>
+        <asset name='lab1_BG_6_2' type='graphic'>backgrounds/slices/lab1_BG_6_2.png</asset>
+        <asset name='lab1_BG_6_3' type='graphic'>backgrounds/slices/lab1_BG_6_3.png</asset>
+        <asset name='lab1_BG_6_4' type='graphic'>backgrounds/slices/lab1_BG_6_4.png</asset>
+        <asset name='lab1_BG_6_5' type='graphic'>backgrounds/slices/lab1_BG_6_5.png</asset>
+        <asset name='lab1_BG_6_6' type='graphic'>backgrounds/slices/lab1_BG_6_6.png</asset>
+
+        <asset name='lab1_FG_0_0' type='graphic'>backgrounds/slices/lab1_FG_0_0.png</asset>
+        <asset name='lab1_FG_0_1' type='graphic'>backgrounds/slices/lab1_FG_0_1.png</asset>
+        <asset name='lab1_FG_0_2' type='graphic'>backgrounds/slices/lab1_FG_0_2.png</asset>
+        <asset name='lab1_FG_0_3' type='graphic'>backgrounds/slices/lab1_FG_0_3.png</asset>
+        <asset name='lab1_FG_0_4' type='graphic'>backgrounds/slices/lab1_FG_0_4.png</asset>
+        <asset name='lab1_FG_0_5' type='graphic'>backgrounds/slices/lab1_FG_0_5.png</asset>
+        <asset name='lab1_FG_0_6' type='graphic'>backgrounds/slices/lab1_FG_0_6.png</asset>
+
+        <asset name='lab1_FG_1_0' type='graphic'>backgrounds/slices/lab1_FG_1_0.png</asset>
+        <asset name='lab1_FG_1_1' type='graphic'>backgrounds/slices/lab1_FG_1_1.png</asset>
+        <asset name='lab1_FG_1_2' type='graphic'>backgrounds/slices/lab1_FG_1_2.png</asset>
+        <asset name='lab1_FG_1_3' type='graphic'>backgrounds/slices/lab1_FG_1_3.png</asset>
+        <asset name='lab1_FG_1_4' type='graphic'>backgrounds/slices/lab1_FG_1_4.png</asset>
+        <asset name='lab1_FG_1_5' type='graphic'>backgrounds/slices/lab1_FG_1_5.png</asset>
+        <asset name='lab1_FG_1_6' type='graphic'>backgrounds/slices/lab1_FG_1_6.png</asset>
+
+        <asset name='lab1_FG_2_0' type='graphic'>backgrounds/slices/lab1_FG_2_0.png</asset>
+        <asset name='lab1_FG_2_1' type='graphic'>backgrounds/slices/lab1_FG_2_1.png</asset>
+        <asset name='lab1_FG_2_2' type='graphic'>backgrounds/slices/lab1_FG_2_2.png</asset>
+        <asset name='lab1_FG_2_3' type='graphic'>backgrounds/slices/lab1_FG_2_3.png</asset>
+        <asset name='lab1_FG_2_4' type='graphic'>backgrounds/slices/lab1_FG_2_4.png</asset>
+        <asset name='lab1_FG_2_5' type='graphic'>backgrounds/slices/lab1_FG_2_5.png</asset>
+        <asset name='lab1_FG_2_6' type='graphic'>backgrounds/slices/lab1_FG_2_6.png</asset>
+
+        <asset name='lab1_FG_3_0' type='graphic'>backgrounds/slices/lab1_FG_3_0.png</asset>
+        <asset name='lab1_FG_3_1' type='graphic'>backgrounds/slices/lab1_FG_3_1.png</asset>
+        <asset name='lab1_FG_3_2' type='graphic'>backgrounds/slices/lab1_FG_3_2.png</asset>
+        <asset name='lab1_FG_3_3' type='graphic'>backgrounds/slices/lab1_FG_3_3.png</asset>
+        <asset name='lab1_FG_3_4' type='graphic'>backgrounds/slices/lab1_FG_3_4.png</asset>
+        <asset name='lab1_FG_3_5' type='graphic'>backgrounds/slices/lab1_FG_3_5.png</asset>
+        <asset name='lab1_FG_3_6' type='graphic'>backgrounds/slices/lab1_FG_3_6.png</asset>
+
+        <asset name='lab1_FG_4_0' type='graphic'>backgrounds/slices/lab1_FG_4_0.png</asset>
+        <asset name='lab1_FG_4_1' type='graphic'>backgrounds/slices/lab1_FG_4_1.png</asset>
+        <asset name='lab1_FG_4_2' type='graphic'>backgrounds/slices/lab1_FG_4_2.png</asset>
+        <asset name='lab1_FG_4_3' type='graphic'>backgrounds/slices/lab1_FG_4_3.png</asset>
+        <asset name='lab1_FG_4_4' type='graphic'>backgrounds/slices/lab1_FG_4_4.png</asset>
+        <asset name='lab1_FG_4_5' type='graphic'>backgrounds/slices/lab1_FG_4_5.png</asset>
+        <asset name='lab1_FG_4_6' type='graphic'>backgrounds/slices/lab1_FG_4_6.png</asset>
+
+        <asset name='lab1_FG_5_0' type='graphic'>backgrounds/slices/lab1_FG_5_0.png</asset>
+        <asset name='lab1_FG_5_1' type='graphic'>backgrounds/slices/lab1_FG_5_1.png</asset>
+        <asset name='lab1_FG_5_2' type='graphic'>backgrounds/slices/lab1_FG_5_2.png</asset>
+        <asset name='lab1_FG_5_3' type='graphic'>backgrounds/slices/lab1_FG_5_3.png</asset>
+        <asset name='lab1_FG_5_4' type='graphic'>backgrounds/slices/lab1_FG_5_4.png</asset>
+        <asset name='lab1_FG_5_5' type='graphic'>backgrounds/slices/lab1_FG_5_5.png</asset>
+        <asset name='lab1_FG_5_6' type='graphic'>backgrounds/slices/lab1_FG_5_6.png</asset>
+
+        <asset name='lab1_FG_6_0' type='graphic'>backgrounds/slices/lab1_FG_6_0.png</asset>
+        <asset name='lab1_FG_6_1' type='graphic'>backgrounds/slices/lab1_FG_6_1.png</asset>
+        <asset name='lab1_FG_6_2' type='graphic'>backgrounds/slices/lab1_FG_6_2.png</asset>
+        <asset name='lab1_FG_6_3' type='graphic'>backgrounds/slices/lab1_FG_6_3.png</asset>
+        <asset name='lab1_FG_6_4' type='graphic'>backgrounds/slices/lab1_FG_6_4.png</asset>
+        <asset name='lab1_FG_6_5' type='graphic'>backgrounds/slices/lab1_FG_6_5.png</asset>
+        <asset name='lab1_FG_6_6' type='graphic'>backgrounds/slices/lab1_FG_6_6.png</asset>
+
+        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
+
     <asset name='karkatSheet' type='graphic'>chars/karkat.png</asset>
     <asset name='daveSheet'   type='graphic'>chars/dave.png</asset>
 
     <asset name='hallwayWalkable' type='graphic'>backgrounds/hallwayWalkable.png</asset>
     <asset name='hallwayBG'       type='graphic'>backgrounds/hallway.png</asset>
     <asset name='hallwayFG'       type='graphic'>backgrounds/hallwayFG3.png</asset>
-    <asset name='staircase'       type='path'>1715,1900;1715,2100;2280,1480;2280,1400</asset>
+    <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
     <asset name='dave_smug'     type='graphic'>dialogs/dave_smug.png</asset>
     <asset name='dave_talk'     type='graphic'>dialogs/dave_talk.png</asset>
@@ -50,7 +165,7 @@
   </effects>
 
   <rooms>
-    <room name='hallwayBG' width='2400' height='2200' walkableMap='hallwayWalkable'>
+    <room name='hallwayBG' width='3100' height='3174' walkableMap='lab1_WM'>
   
       <paths>
         <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
@@ -88,27 +203,38 @@
 
 
 <triggers>
-          <trigger detonate='true'>spriteProperty,char,y&gt;1950
-            <action command='follow'>
-              <args>dave,char</args>
-              <action class='daveTalk' command='talk' noDelay='true'>
-                  </action>
-            </action>
-       </trigger>
+          
+
+       <trigger detonate='true'>spriteProperty,char,y&gt;2980
+                        <action command='follow'>
+                            <args>dave,char</args>
+                            <action class='daveTalk' command='talk' noDelay='true'>
+                            </action>
+                    </action>
+                </trigger>
       </triggers>
 
-      <character name='karkat' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
+      <character name='karkat' x='300' y='1500' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
       </character>
-      <character name='dave' x='1595' y='2000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkRight' facing='Right'>
+      <character name='dave' x='1560' y='3030' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkRight' facing='Right'>
       </character>
-
+<!--
       <sprite name='hallwayBG'>
         <animation sheet='hallwayBG'/> 
       </sprite>
       <sprite name='hallwayFG' x='0' y='0' depthing='2'>
        <animation sheet='hallwayFG'/>
-      </sprite>
-       
+      </sprite> -->
+
+       <sprite name='lab1_BG'>
+                <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <!-- foreground slices -->
+            <sprite name='lab1_FG' depthing ='2'>
+                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
     </room>
   </rooms>
 </sburb>
